@@ -35,9 +35,9 @@ body {
   font-weight: bold;
 }
 
-.nav li {
+.nav-links {
   list-style: none;
-  padding: 16px 0;
+  padding: 16px 30px;
 }
 
 .nav {
@@ -92,4 +92,33 @@ body {
 
 .change {
   display: block;
+}
+
+.socials {
+  z-index: 2;
+  /* margin: 30px 0 20px 20px; */
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-top: 16px;
+}
+
+.fa {
+  font-size: 1.25rem;
+  color: white;
+  margin: 0 0.5rem 0 0;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.headshot {
+  z-index: 2;
+  max-width: 100px;
+  height: 100px;
+  margin-top: 10px;
 }
