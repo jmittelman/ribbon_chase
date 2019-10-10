@@ -1,4 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  width: 1200px;
+  margin: 0 auto;
+  overscroll-behavior: none;
   font-family: "Roboto", sans-serif;
   background-color: #f17144;
 }
@@ -75,7 +82,7 @@ body {
 }
 
 .change .bar {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .change #bar1 {
@@ -108,7 +115,7 @@ body {
 
 .fa {
   font-size: 1.25rem;
-  color: white;
+  color: whitesmoke;
   margin: 0 0.5rem 0 0;
 }
 
@@ -121,4 +128,28 @@ body {
   max-width: 100px;
   height: 100px;
   margin-top: 10px;
+}
+
+.logo {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.logo-img {
+  z-index: 1;
+  width: 100px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h3 {
+  z-index: 2;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  margin: -10px auto;
+  justify-content: center;
 }

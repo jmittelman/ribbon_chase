@@ -26,39 +26,49 @@
     />
   </head>
   <body>
-    <div id="menu-bar">
-      <div id="menu" onclick="onClickMenu()">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
-      </div>
-      <ul class="nav" id="nav">
-        <li class="nav-links"><a href="https://www.thesaurus.com">About</a></li>
-        <li class="nav-links"><a href="#">Work</a></li>
-        <img class="headshot" src="./media/JMportrait2.png" alt="headshot" />
-        <ul class="socials">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jordan-m/"
-              class="fa"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+    <div class="hamburger">
+      <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+          <li class="nav-links">
+            <a href="https://www.thesaurus.com">About</a>
           </li>
-          <li>
-            <a href="https://github.com/jmittelman" class="fa" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <li>
-            <a href="mailto:jordanmittelman@gmail.com" class="fa mail"
-              ><i class="fas fa-envelope"></i
-            ></a>
-          </li>
+          <li class="nav-links"><a href="#">Work</a></li>
+          <img class="headshot" src="./media/JMportrait2.png" alt="headshot" />
+          <ul class="socials">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jordan-m/"
+                class="fa"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/jmittelman" class="fa" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:jordanmittelman@gmail.com" class="fa mail"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
         </ul>
-      </ul>
+      </div>
+      <div class="menu-bg" id="menu-bg"></div>
     </div>
-    <div class="menu-bg" id="menu-bg"></div>
+
+    <div class="logo">
+      <img class="logo-img" src="./media/ribbon.png" alt="logo" />
+      <h3>Ribbon Chase</h3>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
