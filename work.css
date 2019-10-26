@@ -139,16 +139,6 @@ header {
   color: whitesmoke;
 }
 
-#work-button {
-  border: 2px solid whitesmoke;
-  margin-right: 10px;
-}
-
-.work-links-container {
-  display: inline-flex;
-  margin-top: -30px;
-}
-
 #gate {
   width: 300px;
   height: 300px;
