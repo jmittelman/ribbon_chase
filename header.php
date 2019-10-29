@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ribbon Chase</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
+<header>
       <div class="hamburger">
         <div id="menu-bar">
           <div id="menu" onclick="onClickMenu()">
@@ -32,9 +8,9 @@
           </div>
           <ul class="nav" id="nav">
             <li class="nav-links">
-              <a href="https://www.thesaurus.com">About</a>
+              <a href="index.php">Home</a>
             </li>
-            <li class="nav-links"><a href="#">Projects</a></li>
+            <li class="nav-links"><a href="work.php">Projects</a></li>
             <a
               class="resume-link"
               href="./media/JordanMittelman_Resume.pdf"
@@ -73,8 +49,10 @@
         <div class="menu-bg" id="menu-bg"></div>
       </div>
 
-      <div class="logo">
-        <img class="logo-img" src="./media/ribbonlogo.png" alt="logo" />
-        <h3>Ribbon Chase</h3>
-      </div>
+      <a class="logo-link" href="index.php" alt="home"
+        ><div class="logo">
+          <img class="logo-img" src="./media/ribbonlogo.png" alt="logo" />
+          <h3 id="logo-text">Ribbon Chase</h3>
+        </div></a
+      >
     </header>

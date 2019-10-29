@@ -6,10 +6,16 @@ header {
   overflow: hidden;
 }
 
+.sub-header {
+  background-color: #f17144;
+}
+
 .hero-container {
   display: flex;
   justify-content: space-between;
-  margin: 80px 90px;
+  /* margin: 80px 90px; */
+  padding: 80px 90px;
+  background-color: #f17144;
 }
 
 .nested-page-hero-text {

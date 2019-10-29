@@ -161,6 +161,7 @@ header {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding-bottom: 40px;
   text-decoration: none;
 }
 
@@ -261,19 +262,19 @@ h1 {
 .scroll-arrow {
   color: #2e80b8;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .scroll-arrow2 {
   color: #5c3630;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .scroll-arrow3 {
   color: #2e80b8;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .bounce {
@@ -374,6 +375,7 @@ h1 {
   height: 250px;
   min-width: 250px;
   margin-top: 175px;
+  margin-right: 80px;
 }
 
 .story {
@@ -513,7 +515,57 @@ h1 {
   margin-left: 175px;
   width: 600px;
   height: 250px;
+  position: relative;
 }
+#boxes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* .circle {
+  background-color: rgba(241, 113, 68, 0.3);
+  position: absolute;
+  top: 0;
+  left: 100;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.circle {
+  -webkit-animation: grow 6s infinite;
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+} */
 
 .logo-grid-box {
   display: flex;
