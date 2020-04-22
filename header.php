@@ -13,7 +13,7 @@
             <li class="nav-links"><a href="work.php">Projects</a></li>
             <a
               class="resume-link"
-              href="./media/JordanMittelman_Resume.pdf"
+              href="./media/JordanMResume.pdf"
               target="_blank"
               ><img
                 class="headshot"

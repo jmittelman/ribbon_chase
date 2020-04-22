@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ribbon Chase</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="stylemobile.css" type="text/css" />
+    <link rel="stylesheet" href="stylemedium1.css" type="text/css" />
+    <link rel="stylesheet" href="stylemedium2.css" type="text/css" />
+    <link rel="stylesheet" href="styletablet.css" type="text/css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Anton&display=swap"
       rel="stylesheet"
@@ -25,11 +30,15 @@
     <?php include('header.php'); ?>
 
     <section class="hero">
-      <img class="hero-img" src="./media/rodeofence.jpg" alt="rodeo fence" />
+      <img class="hero-img" src="./media/rodeofencing.png" alt="rodeo fence" />
+      <img class="hero-img-small" src="./media/rodeo-small.jpg" alt="rodeo fence" />
       <div class="hero-text">
-        <h1>Nimble Pursuit of Prized</h1>
-        <h1>Integrated Marketing Strategies</h1>
+        <h1 class="hero-text-large">Nimble Pursuit of Prized<br>
+         Integrated Marketing Strategies</h1>
+         <h1 class="hero-text-small">Nimble Pursuit of Prized
+         Integrated Marketing Strategies</h1>
       </div>
+     
       <div class="hero-button">
         <a href="#about" class="learn-more">Learn More</a>
       </div>
@@ -95,7 +104,7 @@
       </div>
       <div class="story-boxes">
         <div class="story-box">
-          <h4>In It To Win It</h4>
+          <h4>Be In It To Win It</h4>
           <img class="box-img" src="./media/ringimage.png" alt="rodeo ring" />
           <p>
             When I was a child, I went to a rodeo. A contest was announced and
@@ -134,8 +143,13 @@
         />
         <div class="story-lesson">
           <h4>
-            Be open to novel ways of thinking &#183; Look at things from
-            different angles &#183; Be inventive to achieve your goal
+            Be open to novel ways of thinking&nbsp;&#183; 
+          </h4>
+          <h4>
+            Look at things from different angles&nbsp;&#183;
+          </h4>
+          <h4>
+            Be inventive to achieve your goal
           </h4>
         </div>
         <img class="ribbon-img" src="./media/ribbonlogo.png" alt="ribbon" />
@@ -171,38 +185,39 @@
              <div class="work-links-container" id="work-links">
                 
                 <div class="button">
-                  <a href="./media/JordanMittelman_Resume.pdf" target="_blank" id="work-button" class="button2">View Resume</a>
+                  <a href="./media/JordanMResume.pdf" target="_blank" id="work-button" class="button2">View Resume</a>
                 </div>
 
                 <div class="button" >
-                  <a href="work.html" id="projects-button" class="button2">View Projects</a>
+                  <a href="./work.php" id="projects-button" class="button2">View Projects</a>
                 </div>
      
-              </div>
+            </div>
+
           </div>
         
-        <div class="logo-grid">
-          <div id="boxes">
-          <div class="logo-grid-box">
-            <img class="client-logo" src="./media/brooks england logo.png" alt="Brooks England" />
-            <img class="client-logo" src="./media/bromptonlogo.png" alt="Brompton" />
-            <img class="client-logo" src="./media/bicyclespace.png" alt="BicycleSPACE" />
-          </div>
-          
-          <div class="logo-grid-box">
-            <img class="client-logo" src="./media/mizuno.png" alt="Mizuno" />
-            <img class="client-logo" src="./media/pacers running.png" alt="Pacers Running" />
-            <img class="client-logo" src="./media/patagonia.png" alt="Patagonia" />
-          </div>
-          </div>
-          <div class="circle">
+          <div class="logo-grid">
+            
+            <div id="boxes">
+              <div class="logo-grid-box">
+                <img class="client-logo" src="./media/brooks england logo.png" alt="Brooks England" />
+                <img class="client-logo" src="./media/bromptonlogo.png" alt="Brompton" />
+                <img class="client-logo" src="./media/bicyclespace.png" alt="BicycleSPACE" />
+              </div>
+            
+              <div class="logo-grid-box">
+                <img class="client-logo" src="./media/mizuno.png" alt="Mizuno" />
+                <img class="client-logo" src="./media/pacers running.png" alt="Pacers Running" />
+                <img class="client-logo" src="./media/patagonia.png" alt="Patagonia" />
+              </div>
+            </div>
 
+          </div>
+        
         </div>
-        </div>
-
+      
       </div>
 
-      </div>
    
     </section>
 

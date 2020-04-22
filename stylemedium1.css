@@ -1,0 +1,215 @@
+/* ---------------------- */
+/* mobile screen  */
+/* ---------------------- */
+
+@media (min-width: 560px) and (max-width: 680px) {
+  /* ---------------------- */
+  /* navigation menu */
+  /* ---------------------- */
+
+  .change-bg {
+    width: 550px;
+    height: 700px;
+  }
+
+  /* ---------------------- */
+  /* logo */
+  /* ---------------------- */
+
+  .logo {
+    width: 200px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .logo-img {
+    width: 70px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    z-index: 1;
+  }
+
+  /* ---------------------- */
+  /* hero section */
+  /* ---------------------- */
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-img-small {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-text {
+    position: absolute;
+    width: 90%;
+    /* top: 120px;
+    left: 20px; */
+    top: 20%;
+    left: 5%;
+
+    font-size: 1.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.1;
+  }
+
+  h1 {
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+  }
+
+  .hero-button {
+    position: absolute;
+    /* top: 305px;
+    left: 40px; */
+    top: 56%;
+    left: 5%;
+  }
+
+  /* ---------------------- */
+  /* scroll arrows */
+  /* ---------------------- */
+
+  .scroll {
+    bottom: -35px;
+  }
+
+  .scroll-arrow,
+  .scroll-arrow2,
+  .scroll-arrow3 {
+    font-size: 1.7rem;
+  }
+  /* ---------------------- */
+  /* about section */
+  /* ---------------------- */
+
+  .about {
+    height: 850px;
+  }
+
+  .about-details {
+    margin: 0 40px;
+    flex-direction: column;
+  }
+  .about-text {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-text-paragraph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .headshot2 {
+    margin: 50px auto 0 auto;
+  }
+  /* ---------------------- */
+  /* rodeo story section */
+  /* ---------------------- */
+
+  .story {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .story-header {
+    flex-direction: column;
+  }
+
+  .bull {
+    width: 200px;
+    margin: 30px auto 0 auto;
+  }
+
+  .story-header h2 {
+    font-size: 2rem;
+  }
+
+  .story-header h3 {
+    font-size: 1.5rem;
+  }
+
+  .story-boxes {
+    flex-direction: column;
+  }
+
+  .box-img {
+    width: 30%;
+  }
+
+  .story-box {
+    width: 70%;
+    margin: 0 auto 20px auto;
+  }
+
+  .story-box h4 {
+    margin-bottom: -2px;
+  }
+
+  .story-end {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 80px 0;
+  }
+
+  .story-lesson {
+    width: 70%;
+  }
+
+  .story-lesson h4 {
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+
+  .ribbon-img {
+    height: 15%;
+    width: 15%;
+    margin-top: 20px;
+  }
+
+  .ribbon-img-flipped {
+    height: 15%;
+    width: 15%;
+    margin-top: 20px;
+  }
+  /* ---------------------- */
+  /* work section */
+  /* ---------------------- */
+
+  .logo-grid {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    height: 250px;
+  }
+
+  .client-logo {
+    width: 75px;
+    height: 75px;
+    margin: 10px 10px;
+  }
+}

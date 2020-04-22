@@ -14,6 +14,10 @@ header {
   background-color: #f17144;
 }
 
+/* ---------------------- */
+/* navigation menu below */
+/* ---------------------- */
+
 #menu {
   width: 35px;
   height: 30px;
@@ -71,7 +75,7 @@ header {
 }
 
 .menu-bg {
-  z-index: 1;
+  z-index: 2;
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
@@ -81,7 +85,7 @@ header {
 }
 
 #menu-bar {
-  z-index: 2;
+  z-index: 3;
 }
 
 .change-bg {
@@ -156,6 +160,10 @@ header {
   opacity: 0.7;
 }
 
+/* ---------------------- */
+/* logo */
+/* ---------------------- */
+
 .logo {
   width: 250px;
   display: flex;
@@ -186,10 +194,12 @@ h3 {
   justify-content: center;
 }
 
-.hero {
-  /* background-image: url("./media/rodeofence.png"); */
-  position: relative;
+/* ---------------------- */
+/* hero section */
+/* ---------------------- */
 
+.hero {
+  position: relative;
   color: white;
   top: 0;
   bottom: 0;
@@ -204,20 +214,27 @@ h3 {
   height: 100%;
 }
 
+.hero-img-small {
+  display: none;
+}
+
 .hero-text {
   position: absolute;
-  top: 90px;
-  left: 50px;
+  /* top: 90px;
+  left: 50px; */
+  top: 12%;
+  left: 5%;
   font-family: Helvetica, sans-serif;
   font-size: 2.25rem;
   border-bottom: solid 1px #5c3630;
   border-top: solid 1px #5c3630;
-  /* border: solid 5px #5c3630;
-  background-color: rgba(46, 128, 184, 0.4); */
-  /* border-radius: 5px; */
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 0.8;
+  line-height: 1.2;
+}
+
+.hero-text-small {
+  display: none;
 }
 
 h1 {
@@ -227,8 +244,10 @@ h1 {
 
 .hero-button {
   position: absolute;
-  top: 280px;
-  left: 75px;
+  /* top: 280px;
+  left: 75px; */
+  top: 42%;
+  left: 7%;
 }
 
 .learn-more {
@@ -249,6 +268,10 @@ h1 {
   opacity: 0.7;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
 }
+
+/* ---------------------- */
+/* scroll arrows and anchor links */
+/* ---------------------- */
 
 .scroll {
   position: absolute;
@@ -304,6 +327,10 @@ h1 {
   margin-top: -63px; */
   visibility: hidden;
 }
+
+/* ---------------------- */
+/* about section */
+/* ---------------------- */
 
 .about {
   position: relative;
@@ -377,6 +404,10 @@ h1 {
   margin-top: 175px;
   margin-right: 80px;
 }
+
+/* ---------------------- */
+/* rodeo story section */
+/* ---------------------- */
 
 .story {
   position: relative;
@@ -475,6 +506,10 @@ h1 {
   margin-top: 25px;
 }
 
+/* ---------------------- */
+/* work section */
+/* ---------------------- */
+
 .work-examples {
   background-color: #2e80b8;
 }
@@ -523,49 +558,6 @@ h1 {
   left: 0;
   z-index: 2;
 }
-
-/* .circle {
-  background-color: rgba(241, 113, 68, 0.3);
-  position: absolute;
-  top: 0;
-  left: 100;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.circle {
-  -webkit-animation: grow 6s infinite;
-}
-
-@-webkit-keyframes grow {
-  0% {
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-  }
-
-  50% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-
-  100% {
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-  }
-} */
 
 .logo-grid-box {
   display: flex;
